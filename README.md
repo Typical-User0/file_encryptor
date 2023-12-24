@@ -34,11 +34,11 @@ cargo build --release
 ## Usage
 ### Encryption
 ```bash
-./target/release/encryption-tool encrypt aes128-gcm secret.txt secret.enc
-./target/release/encryption-tool encrypt aes256-gcm secret.txt secret.enc
-./target/release/encryption-tool encrypt chacha20-poly1305 secret.txt secret.enc
+./target/release/crypt encrypt aes128-gcm secret.txt secret.enc
+./target/release/crypt encrypt aes256-gcm secret.txt secret.enc
+./target/release/crypt encrypt chacha20-poly1305 secret.txt secret.enc
 ```
 ### Decryption
 ```bash
-./target/release/encryption-tool decrypt secret.enc decrypted.txt
+./target/release/crypt decrypt secret.enc decrypted.txt
 ```
