@@ -4,6 +4,9 @@
 
 This Rust-based encryption tool provides a secure and straightforward way to encrypt and decrypt files using various encryption algorithms, including AES-128-GCM, AES-256-GCM, and ChaCha20-Poly1305.
 
+## Caution
+Use this for educational purposes only
+
 ## Table of Contents
 
 - [Installation](#installation)
